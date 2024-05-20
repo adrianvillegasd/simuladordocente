@@ -6,4 +6,4 @@ Además, puede combinarse con preguntas de selección múltiple para fomentar la
 Está diseñado para estudiantes de pedagogía en diversas especialidades, adaptándose a las necesidades específicas de cada una de ellas, según las metodologías educativas y las problemáticas que deben abordar. 
 Se comparte el conjunto de instrucciones para ser montado en algún modelo de lenguaje grande que permita el uso de chatbot. 
 Se recomienda el uso de https://huggingface.co/chat/models 
-Propuesta actual: https://hf.co/chat/ asistente/664a1142d97f834e81dd2751
+Propuesta actual: [https://hf.co/chat/ asistente/664a1142d97f834e81dd2751](https://hf.co/chat/ asistente/664a1142d97f834e81dd2751)
