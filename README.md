@@ -7,3 +7,4 @@ Está diseñado para estudiantes de pedagogía en diversas especialidades, adapt
 Se comparte el conjunto de instrucciones para ser montado en algún modelo de lenguaje grande que permita el uso de chatbot. 
 Se recomienda el uso de https://huggingface.co/chat/models 
 Propuesta actual:https://hf.co/chat/assistant/664a1142d97f834e81dd2751 
+Acceso a más información y tutorial: https://adrianvillegasd.com/segunda-version-del-chatbot-simulador-virtual-de-docencia-mediante-situaciones-pedagogicas-para-formacion-inicial-docente/
