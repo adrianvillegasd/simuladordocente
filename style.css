@@ -1,0 +1,86 @@
+body {
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#quiz-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center children horizontally */
+}
+
+#question-area {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#answers-area {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2x2 grid */
+    gap: 10px;
+    width: 100%; /* Ensure it takes available width for centering grid items */
+    margin-bottom: 20px;
+}
+
+.answer-choice { /* Assuming answer choices will be divs or buttons with this class */
+    background-color: orange;
+    color: white;
+    padding: 15px;
+    min-width: 100px;
+    min-height: 50px;
+    border-radius: 8px;
+    border: none; /* Remove default button borders */
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.answer-choice:hover {
+    background-color: darkorange;
+}
+
+#feedback-area {
+    min-height: 50px;
+    display: flex; /* For centering content */
+    justify-content: center; /* For centering content */
+    align-items: center; /* For centering content */
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#next-button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px; /* Added some margin for spacing */
+}
+
+#next-button:hover {
+    background-color: darkblue;
+}
+
+#results-area {
+    font-size: 20px;
+    display: none;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
